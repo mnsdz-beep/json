@@ -1,0 +1,82 @@
+https://raw.githubusercontent.com/mnsdz-beep/comic/main/1.json{
+	"baozi": {
+		"basicinfo": {
+			"websitename": "baozi",
+			"websiteurl": "https://tw.baozimh.com/"
+		},
+		"homepageinfo": {
+			"addressurl": "https://tw.baozimh.com/",
+			"primarynode": ".index-recommend-items",
+			"childnode": ".catalog-title",
+			"childnodeproperty": "",
+			"childnodetext": "最近更新",
+			"listdatas": ".comics-card",
+			"img": {
+				"primarynode": ".comics-card amp-img[src*='cover']:not([src*='default'])",
+				"childnode": "",
+				"childnodeproperty": "src",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": ".comics-card .comics-card__title h3",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"updeteinfo": {
+				"primarynode": ".comics-card__info small.tags",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"switchlink": {
+				"websiteurl": "https://tw.baozimh.com/",
+				"primarynode": ".comics-card .comics-card__poster",
+				"childnode": "",
+				"childnodeproperty": "href",
+				"childnodetext": ""
+			}
+		},
+		"detailedinfo": {
+			"img": {
+				"primarynode": ".comics-detail amp-img[src*='cover']:not([src*='default'])",
+				"childnode": "",
+				"childnodeproperty": "src",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": ".comics-detail__title",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"introduction": {
+				"primarynode": ".comics-detail__desc",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"chapterlist": {
+				"sorting": 0,
+				"primarynode": ".chapter-items .comics-chapters",
+				"primarynodeproperty": "href",
+				"primarynodetext": "章節目錄",
+				"childnode": ".chapter-item",
+				"childnodeproperty": "href",
+				"childnodetext": "",
+				"nextbuttonnode": "#chapters_other_list",
+				"nextbuttonproperty": "",
+				"nextbuttontext": ""
+			}
+		},
+		"displayinfo": {
+			"primarynode": ".comic-contain__item",
+			"primarynodeproperty": "hrdata-src",
+			"primarynodetext": "",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": "",
+			"listdatas": ""
+		}
+	}
+}
