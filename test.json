@@ -12,13 +12,13 @@
 			"childnodetext": "最近更新",
 			"listdatas": ".comics-card",
 			"img": {
-				"primarynode": ".comics-card amp-img[src*='cover']:not([src*='default'])",
+				"primarynode": "amp-img[src*='cover']:not([src*='default'])",
 				"childnode": "",
 				"childnodeproperty": "src",
 				"childnodetext": ""
 			},
 			"title": {
-				"primarynode": ".comics-card .comics-card__title h3",
+				"primarynode": ".comics-card__title h3",
 				"childnode": "",
 				"childnodeproperty": "",
 				"childnodetext": ""
@@ -31,7 +31,7 @@
 			},
 			"switchlink": {
 				"websiteurl": "https://tw.baozimh.com/",
-				"primarynode": ".comics-card .comics-card__poster",
+				"primarynode": ".comics-card__poster",
 				"childnode": "",
 				"childnodeproperty": "href",
 				"childnodetext": ""
