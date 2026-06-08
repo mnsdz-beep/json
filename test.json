@@ -21,7 +21,7 @@
 				"primarynode": ".comics-card__title h3",
 				"childnode": "",
 				"childnodeproperty": "",
-				"childnodetext": ""
+				"childnodetext": "text"
 			},
 			"updeteinfo": {
 				"primarynode": ".comics-card__info small.tags",
