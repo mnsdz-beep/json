@@ -27,7 +27,7 @@
 				"primarynode": ".comics-card__info small.tags",
 				"childnode": "",
 				"childnodeproperty": "",
-				"childnodetext": ""
+				"childnodetext": "text"
 			},
 			"switchlink": {
 				"websiteurl": "https://tw.baozimh.com/",
