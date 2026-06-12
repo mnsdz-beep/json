@@ -2,8 +2,10 @@
 	"baozi": {
 		"basicinfo": {
 			"websitename": "baozi",
-			"websiteurl": "https://tw.baozimh.com/"
+			"websiteurl": "https://tw.baozimh.com/",
+			"searchurl":"https://tw.baozimh.com/search?q={keyword}"
 		},
+		"searchurl"{},
 		"homepageinfo": {
 			"addressurl": "https://tw.baozimh.com/",
 			"primarynode": ".index-recommend-items",
