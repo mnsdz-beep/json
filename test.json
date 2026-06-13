@@ -95,7 +95,7 @@
 				"primarynode": ".chapter-items .comics-chapters",
 				"primarynodeproperty": "href",
 				"primarynodetext": "章節目錄",
-				"childnode": ".chapter-item",
+				"childnode": ".comics-chapters__item",
 				"childnodeproperty": "href",
 				"childnodetext": "",
 				"nextbuttonnode": "#chapters_other_list",
