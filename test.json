@@ -103,34 +103,40 @@
 				"childnodeproperty": "",
 				"childnodetext": "",
 				"title": {
-					"primarynode": ".comics-chapters",
-					"childnode": "",
+					"primarynode": ".comics-chapters__item",
+					"childnode": "span",
 					"childnodeproperty": "",
 					"childnodetext": " "
 				},
 				"switchlink": {
 					"websiteurl": "https://tw.baozimh.com/",
-					"primarynode": ".comics-chapters",
+					"primarynode": ".comics-chapters__item",
 					"childnode": "",
 					"childnodeproperty": "href",
 					"childnodetext": ""
 				},
-				"nextbuttonnode":{
+				"nextbuttonnode": {
 					"primarynode": "",
 					"childnode": "",
 					"childnodeproperty": "",
 					"childnodetext": ""
 				}
+			},
+			"nextbuttonnode": {
+				"primarynode": "",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
 			}
-		},
-		"displayinfo": {
-			"primarynode": ".comic-contain__item",
-			"primarynodeproperty": "hrdata-src",
-			"primarynodetext": "",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": "",
-			"listdatas": ""
 		}
+	},
+	"displayinfo": {
+		"primarynode": ".comic-contain__item",
+		"primarynodeproperty": "hrdata-src",
+		"primarynodetext": "",
+		"childnode": "",
+		"childnodeproperty": "",
+		"childnodetext": "",
+		"listdatas": ""
 	}
 }
