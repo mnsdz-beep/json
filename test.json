@@ -114,6 +114,12 @@
 					"childnode": "",
 					"childnodeproperty": "href",
 					"childnodetext": ""
+				},
+				"nextbuttonnode":{
+					"primarynode": "",
+					"childnode": "",
+					"childnodeproperty": "",
+					"childnodetext": ""
 				}
 			}
 		},
