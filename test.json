@@ -115,16 +115,16 @@
 					"childnodeproperty": "href",
 					"childnodetext": ""
 				}
-			},
-			"displayinfo": {
-				"primarynode": ".comic-contain__item",
-				"primarynodeproperty": "hrdata-src",
-				"primarynodetext": "",
-				"childnode": "",
-				"childnodeproperty": "",
-				"childnodetext": "",
-				"listdatas": ""
 			}
+		},
+		"displayinfo": {
+			"primarynode": ".comic-contain__item",
+			"primarynodeproperty": "hrdata-src",
+			"primarynodetext": "",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": "",
+			"listdatas": ""
 		}
 	}
 }
