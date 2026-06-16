@@ -99,6 +99,7 @@
 			"chapterlist": {
 				"websiteurl": "https://tw.baozimh.com/",
 				"sorting": 0,
+				"sort_key": "chapter_slot",
 				"primarynode": "*",
 				"childnode": "",
 				"childnodeproperty": "",
