@@ -129,7 +129,7 @@
 		},
 		"displayinfo": {
 			"primarynode": "ul.comic-contain",
-			"childnode": "amp-img.comic-contain__item",
+			"childnode": "amp-img",
 			"childnodeproperty": "src",
 			"childnodetext": "",
 			"nextbuttonnode": {
