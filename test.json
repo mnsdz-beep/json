@@ -128,13 +128,16 @@
 			}
 		},
 		"displayinfo": {
-			"primarynode": ".comic-contain__item",
-			"primarynodeproperty": "hrdata-src",
-			"primarynodetext": "",
-			"childnode": "",
-			"childnodeproperty": "",
+			"primarynode": "ul.comic-contain",
+			"childnode": "amp-img.comic-contain__item",
+			"childnodeproperty": "src",
 			"childnodetext": "",
-			"listdatas": ""
+			"nextbuttonnode": {
+				"primarynode": "",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			}
 		}
 	}
 }
