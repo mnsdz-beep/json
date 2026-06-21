@@ -130,7 +130,7 @@
 		"displayinfo": {
 			"primarynode": "ul.comic-contain",
 			"childnode": "amp-img",
-			"childnodeproperty": "src",
+			"childnodeproperty": "data-src",
 			"childnodetext": "",
 			"nextbuttonnode": {
 				"primarynode": "",
