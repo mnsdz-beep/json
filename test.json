@@ -13,7 +13,7 @@
             "childnodetext": "",
             "listdatas": ".comics-card",
             "img": {
-                "primarynode": "amp-img[src*='cover'])",
+                "primarynode": "amp-img[src*='cover']",
                 "childnode": "",
                 "childnodeproperty": "src",
                 "childnodetext": ""
@@ -46,7 +46,7 @@
             "childnodetext": "最近更新",
             "listdatas": ".comics-card",
             "img": {
-                "primarynode": "amp-img[src*='cover']:not([src*='default'])",
+                "primarynode": "amp-img[src*='cover']",
                 "childnode": "",
                 "childnodeproperty": "src",
                 "childnodetext": ""
