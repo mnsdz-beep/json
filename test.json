@@ -98,3 +98,46 @@
             },
             "chapterlist": {
                 "websiteurl": "https://tw.baozimh.com/",
+                "sorting": 0,
+                "sort_key": "chapter_slot",
+                "primarynode": "*",
+                "childnode": "",
+                "childnodeproperty": "",
+                "childnodetext": "",
+                "title": {
+                    "primarynode": ".comics-chapters__item",
+                    "childnode": "span",
+                    "childnodeproperty": "",
+                    "childnodetext": " "
+                },
+                "switchlink": {
+                    "primarynode": ".comics-chapters__item",
+                    "childnode": "",
+                    "childnodeproperty": "href",
+                    "childnodetext": ""
+                },
+                "nextbuttonnode": {
+                    "primarynode": "#button_show_all_chatper"
+                }
+            },
+            "displayinfo": {
+                "primarynode": "ul.comic-contain",
+                "childnode": "amp-img",
+                "childnodeproperty": ["data-src", "src"],
+                "childnodetext": "",
+                "nextbuttonnode": {
+                    "primarynode": "",
+                    "childnode": "",
+                    "childnodeproperty": "",
+                    "childnodetext": ""
+                }
+            },
+            "nextbuttonnode": {
+                "primarynode": "",
+                "childnode": "",
+                "childnodeproperty": "",
+                "childnodetext": ""
+            }
+        }
+    }
+}
