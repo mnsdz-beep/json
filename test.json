@@ -91,7 +91,7 @@
                 "childnodetext": " "
             },
             "introduction": {
-                "primarynode": ".comics-detail",
+                "primarynode": "#chapter-items, #chapters_other_list",
                 "childnode": ".comics-detail__desc",
                 "childnodeproperty": "",
                 "childnodetext": " "
