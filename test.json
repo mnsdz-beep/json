@@ -118,6 +118,9 @@
                 },
                 "nextbuttonnode": {
                     "primarynode": "#button_show_all_chatper"
+                    "childnode": "",
+                    "childnodeproperty": "",
+                    "childnodetext": ""
                 }
             },
             "displayinfo": {
