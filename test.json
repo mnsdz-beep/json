@@ -117,7 +117,7 @@
                     "childnodetext": ""
                 },
                 "nextbuttonnode": {
-                    "primarynode": "#button_show_all_chatper"
+                    "primarynode": "#button_show_all_chatper",
                     "childnode": "",
                     "childnodeproperty": "",
                     "childnodetext": ""
