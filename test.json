@@ -12,6 +12,7 @@
 			"childnodeproperty": "",
 			"childnodetext": "",
 			"listdatas": ".comics-card",
+			"excludePatterns": ["default"],
 			"img": {
 				"primarynode": "amp-img[src*='cover']:not([src*='default'])",
 				"childnode": "",
@@ -45,6 +46,7 @@
 			"childnodeproperty": "",
 			"childnodetext": "最近更新",
 			"listdatas": ".comics-card",
+			"excludePatterns": ["default"],
 			"img": {
 				"primarynode": "amp-img",
 				"childnode": "",
@@ -72,6 +74,7 @@
 			}
 		},
 		"detailedinfo": {
+			"excludePatterns": ["default"],
 			"img": {
 				"primarynode": ".de-info__box amp-img",
 				"childnode": "",
@@ -104,6 +107,7 @@
 				"childnode": "",
 				"childnodeproperty": "",
 				"childnodetext": "",
+				"excludePatterns": ["default"],
 				"title": {
 					"primarynode": "span",
 					"childnode": "",
