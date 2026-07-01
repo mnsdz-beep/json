@@ -12,7 +12,6 @@
 			"childnodeproperty": "",
 			"childnodetext": "",
 			"listdatas": ".comics-card",
-			"excludePatterns": ["default"],
 			"img": {
 				"primarynode": "amp-img[src*='cover']:not([src*='default'])",
 				"childnode": "",
