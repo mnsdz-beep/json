@@ -40,7 +40,7 @@
 		},
 		"homepageinfo": {
 			"addressurl": "https://m.baozimh.one/dayup",
-			"primarynode": "div.cardlist",
+			"primarynode": "",
 			"childnode": "",
 			"childnodeproperty": "",
 			"childnodetext": "",
