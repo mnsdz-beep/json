@@ -45,7 +45,9 @@
 			"childnodeproperty": "",
 			"childnodetext": "最近更新",
 			"listdatas": ".comics-card",
-			"excludePatterns": ["default"],
+			"excludePatterns": [
+				"default"
+			],
 			"img": {
 				"primarynode": "amp-img",
 				"childnode": "",
@@ -73,7 +75,9 @@
 			}
 		},
 		"detailedinfo": {
-			"excludePatterns": ["default"],
+			"excludePatterns": [
+				"default"
+			],
 			"img": {
 				"primarynode": ".de-info__box amp-img",
 				"childnode": "",
@@ -106,7 +110,9 @@
 				"childnode": "",
 				"childnodeproperty": "",
 				"childnodetext": "",
-				"excludePatterns": ["default"],
+				"excludePatterns": [
+					"default"
+				],
 				"title": {
 					"primarynode": "span",
 					"childnode": "",
@@ -129,7 +135,10 @@
 			"displayinfo": {
 				"primarynode": "ul.comic-contain",
 				"childnode": "amp-img",
-				"childnodeproperty": ["data-src", "src"],
+				"childnodeproperty": [
+					"data-src",
+					"src"
+				],
 				"childnodetext": "",
 				"nextbuttonnode": {
 					"primarynode": "",
@@ -142,6 +151,156 @@
 				"primarynode": "",
 				"childnode": "",
 				"childnodeproperty": "",
+				"childnodetext": ""
+			}
+		}
+	},
+	"bun": {
+		"basicinfo": {
+			"websitename": "bun漫画",
+			"websiteurl": "https://m.baozimh.one/",
+			"searchurl": "https://m.baozimh.one/search?q={keyword}"
+		},
+		"searchinfo": {
+			"addressurl": "https://m.baozimh.one/search?q={keyword}",
+			"primarynode": "div.cardlist",
+			"childnode": "div.pb-2",
+			"childnodeproperty": "",
+			"childnodetext": "",
+			"listdatas": "div.pb-2",
+			"img": {
+				"primarynode": "img.card",
+				"childnode": "",
+				"childnodeproperty": "alt",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": "div.pb-2 > a",
+				"childnode": "",
+				"childnodeproperty": "alt",
+				"childnodetext": ""
+			},
+			"updeteinfo": {
+				"primarynode": "",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"switchlink": {
+				"websiteurl": "https://m.baozimh.one/",
+				"primarynode": "div.pb-2 > a",
+				"childnode": "",
+				"childnodeproperty": "href",
+				"childnodetext": ""
+			}
+		},
+		"homepageinfo": {
+			"addressurl": "https://m.baozimh.one/dayup",
+			"primarynode": "div.cardlist",
+			"childnode": "div.pb-2",
+			"childnodeproperty": "",
+			"childnodetext": "",
+			"listdatas": "div.pb-2",
+			"excludePatterns": [],
+			"img": {
+				"primarynode": "img.card",
+				"childnode": "",
+				"childnodeproperty": "alt",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": "div.pb-2 > a",
+				"childnode": "",
+				"childnodeproperty": "alt",
+				"childnodetext": ""
+			},
+			"updeteinfo": {
+				"primarynode": "",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"switchlink": {
+				"websiteurl": "https://m.baozimh.one/",
+				"primarynode": "div.pb-2 > a",
+				"childnode": "",
+				"childnodeproperty": "href",
+				"childnodetext": ""
+			}
+		},
+		"detailedinfo": {
+			"excludePatterns": [],
+			"img": {
+				"primarynode": "img.object-cover.rounded-md",
+				"childnode": "",
+				"childnodeproperty": "alt",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": "h1",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"author": {
+				"primarynode": "a[href*='manga-author']",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"introduction": {
+				"primarynode": "script[type='application/ld+json']",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"chapterlist": {
+				"websiteurl": "https://m.baozimh.one/",
+				"sorting": 0,
+				"sort_key": "chapter_slot",
+				"primarynode": "div.chapterlists",
+				"childnode": "div.chapteritem > a",
+				"childnodeproperty": "",
+				"childnodetext": "",
+				"excludePatterns": [],
+				"title": {
+					"primarynode": "span.chaptertitle",
+					"childnode": "",
+					"childnodeproperty": "",
+					"childnodetext": ""
+				},
+				"switchlink": {
+					"primarynode": "div.chapteritem > a",
+					"childnode": "",
+					"childnodeproperty": "href",
+					"childnodetext": ""
+				},
+				"nextbuttonnode": {
+					"primarynode": "",
+					"childnode": "",
+					"childnodeproperty": "",
+					"childnodetext": ""
+				}
+			},
+			"displayinfo": {
+				"primarynode": "div.w-full.h-full.relative",
+				"childnode": "img",
+				"childnodeproperty": [
+					"data-src",
+					"src"
+				],
+				"childnodetext": "",
+				"nextbuttonnode": {
+					"primarynode": "a[href*='manga']",
+					"childnode": "",
+					"childnodeproperty": "href",
+					"childnodetext": ""
+				}
+			},
+			"nextbuttonnode": {
+				"primarynode": "a[href*='manga']",
+				"childnode": "",
+				"childnodeproperty": "href",
 				"childnodetext": ""
 			}
 		}
