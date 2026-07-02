@@ -228,81 +228,81 @@
 			"childnodetext": ""
 		}
 	},
-	"detailedinfo": {
+"detailedinfo": {
+	"excludePatterns": [],
+	"img": {
+		"primarynode": "img.object-cover.rounded-md",
+		"childnode": "",
+		"childnodeproperty": "alt",
+		"childnodetext": ""
+	},
+	"title": {
+		"primarynode": "h1",
+		"childnode": "",
+		"childnodeproperty": "",
+		"childnodetext": " "
+	},
+	"author": {
+		"primarynode": "div.text-sm.py-1.pb-2",
+		"childnode": "",
+		"childnodeproperty": "",
+		"childnodetext": " "
+	},
+	"introduction": {
+		"primarynode": "p.text-sm",
+		"childnode": "",
+		"childnodeproperty": "",
+		"childnodetext": " "
+	},
+	"chapterlist": {
+		"websiteurl": "https://m.baozimh.one/",
+		"sorting": 0,
+		"sort_key": "chapter_slot",
+		"primarynode": ".chapteritem",
+		"childnode": "",
+		"childnodeproperty": "",
+		"childnodetext": "",
 		"excludePatterns": [],
-		"img": {
-			"primarynode": "img.object-cover.rounded-md",
+		"title": {
+			"primarynode": "a",
 			"childnode": "",
-			"childnodeproperty": "alt",
+			"childnodeproperty": "data-ct",
+			"childnodetext": " "
+		},
+		"switchlink": {
+			"primarynode": "a",
+			"childnode": "",
+			"childnodeproperty": "href",
 			"childnodetext": ""
 		},
-		"title": {
-			"primarynode": "h1",
+		"nextbuttonnode": {
+			"primarynode": "a[href*='chapterlist']",
 			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": " "
-		},
-		"author": {
-			"primarynode": "div.text-sm.py-1.pb-2",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": " "
-		},
-		"introduction": {
-			"primarynode": "p.text-sm",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": " "
-		},
-		"chapterlist": {
-			"websiteurl": "https://m.baozimh.one/",
-			"sorting": 0,
-			"sort_key": "chapter_slot",
-			"primarynode": "div.chapteritem",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": "",
-			"excludePatterns": [],
-			"title": {
-				"primarynode": "a",
-				"childnode": "",
-				"childnodeproperty": "data-ct",
-				"childnodetext": " "
-			},
-			"switchlink": {
-				"primarynode": "a",
-				"childnode": "",
-				"childnodeproperty": "href",
-				"childnodetext": ""
-			},
-			"nextbuttonnode": {
-				"primarynode": "a[href*='chapterlist']",
-				"childnode": "",
-				"childnodeproperty": "href",
-				"childnodetext": ""
-			}
-		},
-		"displayinfo": {
-			"primarynode": "div.w-full.h-full.relative",
-			"childnode": "img",
-			"childnodeproperty": [
-				"data-src",
-				"src"
-			],
-			"childnodetext": "",
-			"nextbuttonnode": {
-				"primarynode": "a[href*='manga']",
-				"childnode": "",
-				"childnodeproperty": "href",
-				"childnodetext": ""
-			}
-		},
+			"childnodeproperty": "href",
+			"childnodetext": ""
+		}
+	},
+	"displayinfo": {
+		"primarynode": "div.w-full.h-full.relative",
+		"childnode": "img",
+		"childnodeproperty": [
+			"data-src",
+			"src"
+		],
+		"childnodetext": "",
 		"nextbuttonnode": {
 			"primarynode": "a[href*='manga']",
 			"childnode": "",
 			"childnodeproperty": "href",
 			"childnodetext": ""
 		}
+	},
+	"nextbuttonnode": {
+		"primarynode": "a[href*='manga']",
+		"childnode": "",
+		"childnodeproperty": "href",
+		"childnodetext": ""
 	}
+}
 }
 }
