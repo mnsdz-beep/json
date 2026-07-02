@@ -44,7 +44,7 @@
 			"childnode": "",
 			"childnodeproperty": "",
 			"childnodetext": "",
-			"listdatas": "a[href*='manga']",
+			"listdatas": "a[href*='/manga/']",
 			"excludePatterns": [],
 			"img": {
 				"primarynode": "img.card",
