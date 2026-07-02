@@ -1,5 +1,5 @@
 {
-"bun": {
+	"bun": {
 		"basicinfo": {
 			"websitename": "bun漫画",
 			"websiteurl": "https://m.baozimh.one/",
@@ -90,7 +90,7 @@
 				"primarynode": "div.text-sm.py-1.pb-2",
 				"childnode": "a.p-1 > span",
 				"childnodeproperty": "",
-				"childnodetext": ""
+				"childnodetext": " "
 			},
 			"introduction": {
 				"primarynode": "p.text-sm",
@@ -102,7 +102,7 @@
 				"websiteurl": "https://m.baozimh.one/",
 				"sorting": 0,
 				"sort_key": "chapter_slot",
-				"primarynode": "div.chapterlists",
+				"primarynode": "",
 				"childnode": "div.chapteritem > a",
 				"childnodeproperty": "",
 				"childnodetext": "",
@@ -111,7 +111,7 @@
 					"primarynode": "",
 					"childnode": "span.chaptertitle",
 					"childnodeproperty": "",
-					"childnodetext": ""
+					"childnodetext": " "
 				},
 				"switchlink": {
 					"primarynode": "",
