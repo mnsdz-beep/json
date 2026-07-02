@@ -88,7 +88,7 @@
 			},
 			"author": {
 				"primarynode": "div.text-sm.py-1.pb-2",
-				"childnode": "a[class='p-1'] > span",
+				"childnode": "a.p-1 > span",
 				"childnodeproperty": "",
 				"childnodetext": ""
 			},
@@ -109,8 +109,8 @@
 				"excludePatterns": [],
 				"title": {
 					"primarynode": "",
-					"childnode": "",
-					"childnodeproperty": "data-ct",
+					"childnode": "span.chaptertitle",
+					"childnodeproperty": "",
 					"childnodetext": ""
 				},
 				"switchlink": {
