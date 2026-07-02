@@ -1,5 +1,5 @@
 {
-	"bun": {
+"bun": {
 		"basicinfo": {
 			"websitename": "bun漫画",
 			"websiteurl": "https://m.baozimh.one/",
@@ -87,16 +87,16 @@
 				"childnodetext": ""
 			},
 			"author": {
-				"primarynode": "a[href*=\"manga-author\"]",
-				"childnode": "",
+				"primarynode": "div.text-sm.py-1.pb-2",
+				"childnode": "a[class='p-1'] > span",
 				"childnodeproperty": "",
 				"childnodetext": ""
 			},
 			"introduction": {
-				"primarynode": "script[type='application/ld+json']",
-				"childnode": "script[type=\"application/ld+json\"]",
+				"primarynode": "p.text-sm",
+				"childnode": "",
 				"childnodeproperty": "",
-				"childnodetext": ""
+				"childnodetext": " "
 			},
 			"chapterlist": {
 				"websiteurl": "https://m.baozimh.one/",
@@ -108,13 +108,13 @@
 				"childnodetext": "",
 				"excludePatterns": [],
 				"title": {
-					"primarynode": "span.chaptertitle",
+					"primarynode": "",
 					"childnode": "",
-					"childnodeproperty": "",
+					"childnodeproperty": "data-ct",
 					"childnodetext": ""
 				},
 				"switchlink": {
-					"primarynode": "div.chapteritem > a",
+					"primarynode": "",
 					"childnode": "",
 					"childnodeproperty": "href",
 					"childnodetext": ""
