@@ -155,154 +155,154 @@
 			}
 		}
 	},
-	"bun": {
-		"basicinfo": {
-			"websitename": "bun漫画",
-			"websiteurl": "https://m.baozimh.one/",
-			"searchurl": "https://m.baozimh.one/search?q={keyword}"
+"bun": {
+	"basicinfo": {
+		"websitename": "bun漫画",
+		"websiteurl": "https://m.baozimh.one/",
+		"searchurl": "https://m.baozimh.one/search?q={keyword}"
+	},
+	"searchinfo": {
+		"addressurl": "https://m.baozimh.one/search?q={keyword}",
+		"primarynode": "div.cardlist",
+		"childnode": "div.pb-2",
+		"childnodeproperty": "",
+		"childnodetext": "",
+		"listdatas": "div.pb-2",
+		"img": {
+			"primarynode": "img.card",
+			"childnode": "",
+			"childnodeproperty": "alt",
+			"childnodetext": ""
 		},
-		"searchinfo": {
-			"addressurl": "https://m.baozimh.one/search?q={keyword}",
-			"primarynode": "div.cardlist",
-			"childnode": "div.pb-2",
-			"childnodeproperty": "",
-			"childnodetext": "",
-			"listdatas": "div.pb-2",
-			"img": {
-				"primarynode": "img.card",
-				"childnode": "",
-				"childnodeproperty": "alt",
-				"childnodetext": ""
-			},
-			"title": {
-				"primarynode": "div.pb-2 > a",
-				"childnode": "",
-				"childnodeproperty": "alt",
-				"childnodetext": ""
-			},
-			"updeteinfo": {
-				"primarynode": "",
-				"childnode": "",
-				"childnodeproperty": "",
-				"childnodetext": ""
-			},
-			"switchlink": {
-				"websiteurl": "https://m.baozimh.one/",
-				"primarynode": "div.pb-2 > a",
-				"childnode": "",
-				"childnodeproperty": "href",
-				"childnodetext": ""
-			}
+		"title": {
+			"primarynode": "div.pb-2 > a",
+			"childnode": "",
+			"childnodeproperty": "alt",
+			"childnodetext": ""
 		},
-		"homepageinfo": {
-			"addressurl": "https://m.baozimh.one/dayup",
+		"updeteinfo": {
 			"primarynode": "",
 			"childnode": "",
 			"childnodeproperty": "",
+			"childnodetext": ""
+		},
+		"switchlink": {
+			"websiteurl": "https://m.baozimh.one/",
+			"primarynode": "div.pb-2 > a",
+			"childnode": "",
+			"childnodeproperty": "href",
+			"childnodetext": ""
+		}
+	},
+	"homepageinfo": {
+		"addressurl": "https://m.baozimh.one/dayup",
+		"primarynode": "",
+		"childnode": "",
+		"childnodeproperty": "",
+		"childnodetext": "",
+		"listdatas": "a[href*='/manga/']",
+		"excludePatterns": [],
+		"img": {
+			"primarynode": "img.card",
+			"childnode": "",
+			"childnodeproperty": "src",
+			"childnodetext": ""
+		},
+		"title": {
+			"primarynode": "",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": " "
+		},
+		"updeteinfo": {
+			"primarynode": "",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": ""
+		},
+		"switchlink": {
+			"websiteurl": "https://m.baozimh.one/",
+			"primarynode": "",
+			"childnode": "",
+			"childnodeproperty": "href",
+			"childnodetext": ""
+		}
+	},
+	"detailedinfo": {
+		"excludePatterns": [],
+		"img": {
+			"primarynode": "img.object-cover.rounded-md",
+			"childnode": "",
+			"childnodeproperty": "alt",
+			"childnodetext": ""
+		},
+		"title": {
+			"primarynode": "h1",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": " "
+		},
+		"author": {
+			"primarynode": "div.text-sm.py-1.pb-2",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": " "
+		},
+		"introduction": {
+			"primarynode": "p.text-sm",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": " "
+		},
+		"chapterlist": {
+			"websiteurl": "https://m.baozimh.one/",
+			"sorting": 0,
+			"sort_key": "chapter_slot",
+			"primarynode": "",
+			"childnode": "div.chapteritem a",
+			"childnodeproperty": "",
 			"childnodetext": "",
-			"listdatas": "a[href*='/manga/']",
 			"excludePatterns": [],
-			"img": {
-				"primarynode": "img.card",
-				"childnode": "",
-				"childnodeproperty": "src",
-				"childnodetext": ""
-			},
 			"title": {
 				"primarynode": "",
 				"childnode": "",
-				"childnodeproperty": "",
+				"childnodeproperty": "data-ct",
 				"childnodetext": " "
 			},
-			"updeteinfo": {
+			"switchlink": {
 				"primarynode": "",
 				"childnode": "",
-				"childnodeproperty": "",
+				"childnodeproperty": "href",
 				"childnodetext": ""
 			},
-			"switchlink": {
-				"websiteurl": "https://m.baozimh.one/",
-				"primarynode": "",
+			"nextbuttonnode": {
+				"primarynode": "#morechap > a",
 				"childnode": "",
 				"childnodeproperty": "href",
 				"childnodetext": ""
 			}
 		},
-		"detailedinfo": {
-			"excludePatterns": [],
-			"img": {
-				"primarynode": "img.object-cover.rounded-md",
-				"childnode": "",
-				"childnodeproperty": "alt",
-				"childnodetext": ""
-			},
-			"title": {
-				"primarynode": "h1",
-				"childnode": "",
-				"childnodeproperty": "",
-				"childnodetext": " "
-			},
-			"author": {
-				"primarynode": "div.text-sm.py-1.pb-2",
-				"childnode": "",
-				"childnodeproperty": "",
-				"childnodetext": " "
-			},
-			"introduction": {
-				"primarynode": "p.text-sm",
-				"childnode": "",
-				"childnodeproperty": "",
-				"childnodetext": " "
-			},
-			"chapterlist": {
-				"websiteurl": "https://m.baozimh.one/",
-				"sorting": 0,
-				"sort_key": "chapter_slot",
-				"primarynode": "",
-				"childnode": "div.chapteritem > a",
-				"childnodeproperty": "",
-				"childnodetext": "",
-				"excludePatterns": [],
-				"title": {
-					"primarynode": "",
-					"childnode": "",
-					"childnodeproperty": "data-ct",
-					"childnodetext": " "
-				},
-				"switchlink": {
-					"primarynode": "",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": ""
-				},
-				"nextbuttonnode": {
-					"primarynode": "#morechap > a",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": ""
-				}
-			},
-			"displayinfo": {
-				"primarynode": "div.w-full.h-full.relative",
-				"childnode": "img",
-				"childnodeproperty": [
-					"data-src",
-					"src"
-				],
-				"childnodetext": "",
-				"nextbuttonnode": {
-					"primarynode": "a[href*='manga']",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": ""
-				}
-			},
+		"displayinfo": {
+			"primarynode": "div.w-full.h-full.relative",
+			"childnode": "img",
+			"childnodeproperty": [
+				"data-src",
+				"src"
+			],
+			"childnodetext": "",
 			"nextbuttonnode": {
 				"primarynode": "a[href*='manga']",
 				"childnode": "",
 				"childnodeproperty": "href",
 				"childnodetext": ""
 			}
+		},
+		"nextbuttonnode": {
+			"primarynode": "a[href*='manga']",
+			"childnode": "",
+			"childnodeproperty": "href",
+			"childnodetext": ""
 		}
 	}
+}
 }
