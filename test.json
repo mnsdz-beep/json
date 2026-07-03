@@ -272,41 +272,26 @@
 				"switchlink": {
 					"primarynode": "a",
 					"childnode": "",
-					"childnodeproperty": [
-						"href",
-						"data-url",
-						"rel"
-					],
+					"childnodeproperty": "href",
 					"childnodetext": ""
 				},
 				"nextbuttonnode": {
 					"primarynode": "a[href*='chapterlist']",
 					"childnode": "",
-					"childnodeproperty": [
-						"href",
-						"data-url"
-					],
+					"childnodeproperty": "href",
 					"childnodetext": ""
 				}
 			},
 			"displayinfo": {
 				"primarynode": "div.w-full.h-full.relative",
 				"childnode": "img",
-				"childnodeproperty": [
-					"data-src",
-					"src"
-				],
+				"childnodeproperty": "data-src",
 				"childnodetext": "",
 				"nextbuttonnode": {
 					"primarynode": "a[href*='manga']",
 					"childnode": "",
 					"childnodeproperty": "href",
 					"childnodetext": ""
-				},
-				"imgpropertyfilter": {
-					"skipemptydatauri": true,
-					"skipbase64": true,
-					"preferexternalurl": true
 				}
 			},
 			"nextbuttonnode": {
