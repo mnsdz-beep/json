@@ -283,6 +283,7 @@
 				}
 			},
 			"displayinfo": {
+				"jsrendercheck": "img[data-src]",
 				"primarynode": "div.w-full.h-full.relative",
 				"childnode": "img",
 				"childnodeproperty": "data-src",
