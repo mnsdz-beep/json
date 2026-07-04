@@ -6,6 +6,7 @@
 			"searchurl": "https://tw.baozimh.com/search?q={keyword}"
 		},
 		"searchinfo": {
+			"fetchmode": 2,
 			"addressurl": "https://tw.baozimh.com/search?q={keyword}",
 			"primarynode": ".l-content.search",
 			"childnode": ".keyword-hinter",
@@ -39,6 +40,7 @@
 			}
 		},
 		"homepageinfo": {
+			"fetchmode": 2,
 			"addressurl": "https://tw.baozimh.com/",
 			"primarynode": ".index-recommend-items",
 			"childnode": ".catalog-title",
@@ -75,6 +77,7 @@
 			}
 		},
 		"detailedinfo": {
+			"fetchmode": 2,
 			"excludePatterns": [
 				"default"
 			],
@@ -162,6 +165,7 @@
 			"searchurl": "https://m.baozimh.one/search?q={keyword}"
 		},
 		"searchinfo": {
+			"fetchmode": 2,
 			"addressurl": "https://m.baozimh.one/search?q={keyword}",
 			"primarynode": "div.cardlist",
 			"childnode": "div.pb-2",
@@ -195,6 +199,7 @@
 			}
 		},
 		"homepageinfo": {
+			"fetchmode": 2,
 			"addressurl": "https://m.baozimh.one/dayup",
 			"primarynode": "",
 			"childnode": "",
@@ -229,6 +234,7 @@
 			}
 		},
 		"detailedinfo": {
+			"fetchmode": 2,
 			"excludePatterns": [],
 			"img": {
 				"primarynode": "img.object-cover.rounded-md",
@@ -283,6 +289,7 @@
 				}
 			},
 			"displayinfo": {
+				"fetchmode": 3,
 				"jsrendercheck": "img[data-src]",
 				"primarynode": "div.w-full.h-full.relative",
 				"childnode": "img",
