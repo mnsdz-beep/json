@@ -1,180 +1,180 @@
 {
-  "baozi": {
-    "basicinfo": {
-      "websitename": "包子漫画",
-      "websiteurl": "https://tw.baozimh.com/"
-    },
-    "homepageinfo": {
-      "addressurl": "https://tw.baozimh.com/",
-      "primarynode": ".catalog-head",
-      "childnode": ".catalog-title",
-      "childnodeproperty": "",
-      "childnodetext": "最近更新",
-      "upTo": ".index-recommend-items",
-      "listdatas": ".comics-card",
-      "data": {
-        "img": {
-          "primarynode": "amp-img",
-          "childnode": "",
-          "childnodeproperty": "src",
-          "childnodetext": "",
-          "excludePatterns": []
-        },
-        "title": {
-          "primarynode": "a",
-          "childnode": "h3",
-          "childnodeproperty": "",
-          "childnodetext": " ",
-          "excludePatterns": []
-        },
-        "switchlink": {
-          "primarynode": "a",
-          "childnode": "",
-          "childnodeproperty": "href",
-          "childnodetext": "",
-          "excludePatterns": []
-        }
-      }
-    },
-    "detailinfo": {
-      "cover": {
-        "primarynode": ".comics-detail",
-        "childnode": "amp-img",
-        "childnodeproperty": "src",
-        "childnodetext": ""
-      },
-      "title": {
-        "primarynode": ".comics-detail__info",
-        "childnode": "h1",
-        "childnodeproperty": "",
-        "childnodetext": ""
-      },
-      "author": {
-        "primarynode": ".comics-detail__info",
-        "childnode": "h2",
-        "childnodeproperty": "",
-        "childnodetext": ""
-      },
-      "introduction": {
-        "primarynode": ".comics-detail__info",
-        "childnode": ".comics-detail__desc",
-        "childnodeproperty": "",
-        "childnodetext": ""
-      },
-      "chapterlist": {
-        "primarynode": ".comics-chapters",
-        "childnode": "",
-        "childnodeproperty": "a",
-        "childnodetext": ""
-      }
-    }
-  },
-  "bun": {
-    "basicinfo": {
-      "websitename": "Bun漫画",
-      "websiteurl": "https://m.baozimh.one/"
-    },
-    "homepageinfo": {
-      "addressurl": "https://m.baozimh.one/",
-      "primarynode": "h2",
-      "childnode": "",
-      "childnodeproperty": "",
-      "childnodetext": "近期更新",
-      "upTo": "",
-      "listdatas": ".comics-card",
-      "data": {
-        "img": {
-          "primarynode": "amp-img",
-          "childnode": "",
-          "childnodeproperty": "src",
-          "childnodetext": "",
-          "excludePatterns": []
-        },
-        "title": {
-          "primarynode": ".comics-card__title",
-          "childnode": "h3",
-          "childnodeproperty": "",
-          "childnodetext": " ",
-          "excludePatterns": []
-        },
-        "switchlink": {
-          "primarynode": "a",
-          "childnode": "",
-          "childnodeproperty": "href",
-          "childnodetext": "",
-          "excludePatterns": []
-        }
-      }
-    },
-    "detailinfo": {
-      "cover": {
-        "primarynode": "meta[property=\"og:image\"]",
-        "childnode": "",
-        "childnodeproperty": "content",
-        "childnodetext": ""
-      },
-      "title": {
-        "primarynode": "h1",
-        "childnode": "",
-        "childnodeproperty": "",
-        "childnodetext": ""
-      },
-      "author": {
-        "primarynode": "a[href*=\"/manga-author/\"]",
-        "childnode": "",
-        "childnodeproperty": "",
-        "childnodetext": ""
-      },
-      "introduction": {
-        "primarynode": "meta[name=\"description\"]",
-        "childnode": "",
-        "childnodeproperty": "content",
-        "childnodetext": ""
-      },
-      "chapterlist": {
-        "primarynode": ".chapterlists",
-        "childnode": ".chapteritem a",
-        "childnodeproperty": "",
-        "childnodetext": ""
-      }
-    }
-  },
-  "mika": {
-    "basicinfo": {
-      "websitename": "米卡",
-      "websiteurl": "https://mikagogo.com/"
-    },
-    "homepageinfo": {
-      "addressurl": "https://mikagogo.com/vip-illustration",
-      "primarynode": "",
-      "childnode": "",
-      "childnodeproperty": "",
-      "childnodetext": "",
-      "upTo": ".update_area.kz-CmsPostList",
-      "listdatas": ".kzpost-data",
-      "data": {
-        "img": {
-          "primarynode": ".cardImage",
-          "childnode": "",
-          "childnodeproperty": "src",
-          "childnodetext": "",
-          "excludePatterns": []
-        },
-        "title": {
-          "primarynode": "div.posr-tit",
-          "childnode": "",
-          "childnodeproperty": "",
-          "childnodetext": "",
-          "excludePatterns": []
-        },
-        "switchlink": {
-          "primarynode": "a",
-          "childnode": "",
-          "childnodeproperty": "href",
-          "childnodetext": "",
-          "excludePatterns": []
-        }
-      }
-    }
-  }
+	"baozi": {
+		"basicinfo": {
+			"websitename": "包子漫画",
+			"websiteurl": "https://tw.baozimh.com/"
+		},
+		"homepageinfo": {
+			"addressurl": "https://tw.baozimh.com/",
+			"primarynode": ".catalog-head",
+			"childnode": ".catalog-title",
+			"childnodeproperty": "",
+			"childnodetext": "最近更新",
+			"upTo": ".index-recommend-items",
+			"listdatas": ".comics-card",
+			"data": {
+				"img": {
+					"primarynode": "amp-img",
+					"childnode": "",
+					"childnodeproperty": "src",
+					"childnodetext": "",
+					"excludePatterns": []
+				},
+				"title": {
+					"primarynode": "a",
+					"childnode": "h3",
+					"childnodeproperty": "",
+					"childnodetext": " ",
+					"excludePatterns": []
+				},
+				"switchlink": {
+					"primarynode": "a",
+					"childnode": "",
+					"childnodeproperty": "href",
+					"childnodetext": "",
+					"excludePatterns": []
+				}
+			}
+		},
+		"detailinfo": {
+			"cover": {
+				"primarynode": ".comics-detail",
+				"childnode": "amp-img",
+				"childnodeproperty": "src",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": ".comics-detail__info",
+				"childnode": "h1",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"author": {
+				"primarynode": ".comics-detail__info",
+				"childnode": "h2",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"introduction": {
+				"primarynode": ".comics-detail__info",
+				"childnode": ".comics-detail__desc",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"chapterlist": {
+				"primarynode": ".comics-chapters",
+				"childnode": "",
+				"childnodeproperty": "a",
+				"childnodetext": ""
+			}
+		}
+	},
+	"bun": {
+		"basicinfo": {
+			"websitename": "Bun漫画",
+			"websiteurl": "https://m.baozimh.one/"
+		},
+		"homepageinfo": {
+			"addressurl": "https://m.baozimh.one/",
+			"primarynode": "h2",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": "近期更新",
+			"upTo": "",
+			"listdatas": ".slicarda",
+			"data": {
+				"img": {
+					"primarynode": "div.aspect-3-4",
+					"childnode": "img.slicardimg",
+					"childnodeproperty": "src",
+					"childnodetext": "",
+					"excludePatterns": []
+				},
+				"title": {
+					"primarynode": "h3.slicardtitle",
+					"childnode": "",
+					"childnodeproperty": "",
+					"childnodetext": "",
+					"excludePatterns": []
+				},
+				"switchlink": {
+					"primarynode": "a.slicarda",
+					"childnode": "",
+					"childnodeproperty": "href",
+					"childnodetext": "",
+					"excludePatterns": []
+				}
+			}
+		},
+		"detailinfo": {
+			"cover": {
+				"primarynode": "meta[property=\"og:image\"]",
+				"childnode": "",
+				"childnodeproperty": "content",
+				"childnodetext": ""
+			},
+			"title": {
+				"primarynode": "h1",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"author": {
+				"primarynode": "a[href*=\"/manga-author/\"]",
+				"childnode": "",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			},
+			"introduction": {
+				"primarynode": "meta[name=\"description\"]",
+				"childnode": "",
+				"childnodeproperty": "content",
+				"childnodetext": ""
+			},
+			"chapterlist": {
+				"primarynode": ".chapterlists",
+				"childnode": ".chapteritem a",
+				"childnodeproperty": "",
+				"childnodetext": ""
+			}
+		}
+	},
+	"mika": {
+		"basicinfo": {
+			"websitename": "米卡",
+			"websiteurl": "https://mikagogo.com/"
+		},
+		"homepageinfo": {
+			"addressurl": "https://mikagogo.com/vip-illustration",
+			"primarynode": "",
+			"childnode": "",
+			"childnodeproperty": "",
+			"childnodetext": "",
+			"upTo": ".update_area.kz-CmsPostList",
+			"listdatas": ".kzpost-data",
+			"data": {
+				"img": {
+					"primarynode": ".cardImage",
+					"childnode": "",
+					"childnodeproperty": "src",
+					"childnodetext": "",
+					"excludePatterns": []
+				},
+				"title": {
+					"primarynode": "div.posr-tit",
+					"childnode": "",
+					"childnodeproperty": "",
+					"childnodetext": "",
+					"excludePatterns": []
+				},
+				"switchlink": {
+					"primarynode": "a",
+					"childnode": "",
+					"childnodeproperty": "href",
+					"childnodetext": "",
+					"excludePatterns": []
+				}
+			}
+		}
+	}
 }
