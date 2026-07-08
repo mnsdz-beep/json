@@ -81,24 +81,24 @@
       "childnodeproperty": "",
       "childnodetext": "近期更新",
       "upTo": "",
-      "listdatas": ".slicarda",
+      "listdatas": ".comics-card",
       "data": {
         "img": {
-          "primarynode": "div.aspect-3-4",
-          "childnode": "img.slicardimg",
+          "primarynode": "amp-img",
+          "childnode": "",
           "childnodeproperty": "src",
           "childnodetext": "",
           "excludePatterns": []
         },
         "title": {
-          "primarynode": "h3.slicardtitle",
-          "childnode": "",
+          "primarynode": ".comics-card__title",
+          "childnode": "h3",
           "childnodeproperty": "",
-          "childnodetext": "",
+          "childnodetext": " ",
           "excludePatterns": []
         },
         "switchlink": {
-          "primarynode": "a.slicarda",
+          "primarynode": "a",
           "childnode": "",
           "childnodeproperty": "href",
           "childnodetext": "",
