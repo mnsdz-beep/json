@@ -103,6 +103,13 @@
             "excludePatterns": []
           }
         }
+      },
+      "reader": {
+        "primarynode": ".comic-contain img",
+        "childnode": "",
+        "childnodeproperty": "src",
+        "childnodetext": "",
+        "excludePatterns": ["install_app_bar"]
       }
     }
   },
