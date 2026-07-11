@@ -105,7 +105,7 @@
         }
       },
       "reader": {
-        "primarynode": ".comic-contain img",
+        "primarynode": ".comic-contain amp-img",
         "childnode": "",
         "childnodeproperty": "src",
         "childnodetext": "",
