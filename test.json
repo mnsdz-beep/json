@@ -109,9 +109,7 @@
         "childnode": "",
         "childnodeproperty": "src",
         "childnodetext": "",
-        "excludePatterns": [
-          "install_app_bar"
-        ]
+        "excludePatterns": ["install_app_bar"]
       }
     }
   },
@@ -225,9 +223,7 @@
         "childnode": "",
         "childnodeproperty": "data-src",
         "childnodetext": "",
-        "excludePatterns": [
-          "data:image/gif"
-        ]
+        "excludePatterns": ["data:image/gif"]
       }
     }
   },
@@ -335,6 +331,10 @@
             "excludePatterns": []
           }
         }
+      },
+      "html": {
+        "lazyLoad": true,
+        "scrollMode": "random"
       }
     }
   }
