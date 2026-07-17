@@ -331,11 +331,11 @@
             "excludePatterns": []
           }
         }
-      },
-      "html": {
-        "lazyLoad": true,
-        "scrollMode": "random"
       }
+    },
+    "html": {
+      "lazyLoad": true,
+      "scrollMode": "random"
     }
   }
 }
