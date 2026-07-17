@@ -244,7 +244,7 @@
         "img": {
           "primarynode": ".cardImage",
           "childnode": "",
-          "childnodeproperty": "src",
+          "childnodeproperty": "data-original",
           "childnodetext": "",
           "excludePatterns": []
         },
@@ -332,10 +332,6 @@
           }
         }
       }
-    },
-    "html": {
-      "lazyLoad": true,
-      "scrollMode": "random"
     }
   }
 }
