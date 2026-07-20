@@ -273,21 +273,21 @@
       "listdatas": "",
       "data": {
         "cover": {
-          "primarynode": "",
+          "primarynode": ".hig-item .hig-image-container img",
           "childnode": "",
-          "childnodeproperty": "",
+          "childnodeproperty": "src",
           "childnodetext": "",
           "excludePatterns": []
         },
         "title": {
-          "primarynode": "",
+          "primarynode": ".kz-single-data h1",
           "childnode": "",
           "childnodeproperty": "",
           "childnodetext": "",
           "excludePatterns": []
         },
         "author": {
-          "primarynode": "",
+          "primarynode": ".kz-post-meta a[href*=\"/author/\"]",
           "childnode": "",
           "childnodeproperty": "",
           "childnodetext": "",
@@ -302,12 +302,12 @@
         }
       },
       "chapters": {
-        "primarynode": "",
+        "primarynode": ".horizontal-image-gallery",
         "childnode": "",
         "childnodeproperty": "",
         "childnodetext": "",
         "upTo": "",
-        "listdatas": "",
+        "listdatas": ".hig-item",
         "expand_button": {
           "primarynode": "",
           "childnode": "",
@@ -317,9 +317,9 @@
         },
         "data": {
           "href": {
-            "primarynode": "",
+            "primarynode": ".hig-image-container img",
             "childnode": "",
-            "childnodeproperty": "",
+            "childnodeproperty": "src",
             "childnodetext": "",
             "excludePatterns": []
           },
