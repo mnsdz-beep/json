@@ -1,336 +1,370 @@
 {
-	"baozi": {
-		"basicinfo": {
-			"websitename": "包子漫画",
-			"websiteurl": "https://tw.baozimh.com/"
-		},
-		"homepage": {
-			"addressurl": "https://tw.baozimh.com/",
-			"primarynode": ".catalog-head",
-			"childnode": ".catalog-title",
-			"childnodeproperty": "",
-			"childnodetext": "最近更新",
-			"upTo": ".index-recommend-items",
-			"listdatas": ".comics-card",
-			"data": {
-				"img": {
-					"primarynode": "amp-img",
-					"childnode": "",
-					"childnodeproperty": "src",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"title": {
-					"primarynode": "a",
-					"childnode": "h3",
-					"childnodeproperty": "",
-					"childnodetext": "*",
-					"excludePatterns": []
-				},
-				"switchlink": {
-					"primarynode": "a",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": "",
-					"excludePatterns": []
-				}
-			}
-		},
-		"detailpage": {
-			"primarynode": ".comics-detail",
-			"childnode": "amp-img",
-			"childnodeproperty": "src",
-			"childnodetext": "",
-			"upTo": "",
-			"listdatas": "",
-			"data": {
-				"cover": {
-					"primarynode": ".comics-detail",
-					"childnode": "amp-img",
-					"childnodeproperty": "src",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"title": {
-					"primarynode": ".comics-detail__info",
-					"childnode": "h1",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"author": {
-					"primarynode": ".comics-detail__info",
-					"childnode": "h2",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"introduction": {
-					"primarynode": ".comics-detail__info",
-					"childnode": ".comics-detail__desc",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				}
-			},
-			"chapters": {
-				"primarynode": "a.comics-chapters__item",
-				"childnode": "",
-				"childnodeproperty": "href",
-				"childnodetext": "",
-				"upTo": "",
-				"listdatas": "",
-				"expand_button": {
-					"primarynode": "",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "查看全部"
-				},
-				"data": {
-					"href": {
-						"primarynode": "a",
-						"childnode": "",
-						"childnodeproperty": "href",
-						"childnodetext": "",
-						"excludePatterns": []
-					},
-					"title": {
-						"primarynode": "span",
-						"childnode": "",
-						"childnodeproperty": "",
-						"childnodetext": "",
-						"excludePatterns": []
-					}
-				}
-			},
-			"reader": {
-				"primarynode": ".comic-contain amp-img",
-				"childnode": "",
-				"childnodeproperty": "src",
-				"childnodetext": "",
-				"excludePatterns": ["install_app_bar"]
-			}
-		}
-	},
-	"bun": {
-		"basicinfo": {
-			"websitename": "Bun 漫画",
-			"websiteurl": "https://m.baozimh.one/"
-		},
-		"homepage": {
-			"addressurl": "https://m.baozimh.one/",
-			"primarynode": "",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": "",
-			"upTo": "",
-			"listdatas": ".slicarda",
-			"data": {
-				"img": {
-					"primarynode": "div.aspect-3-4",
-					"childnode": "img.slicardimg",
-					"childnodeproperty": "src",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"title": {
-					"primarynode": "h3.slicardtitle",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"switchlink": {
-					"primarynode": "a.slicarda",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": "",
-					"excludePatterns": []
-				}
-			}
-		},
-		"detailpage": {
-			"primarynode": "meta[property=\"og:image\"]",
-			"childnode": "",
-			"childnodeproperty": "content",
-			"childnodetext": "",
-			"upTo": "",
-			"listdatas": "",
-			"data": {
-				"cover": {
-					"primarynode": "meta[property=\"og:image\"]",
-					"childnode": "",
-					"childnodeproperty": "content",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"title": {
-					"primarynode": "h1",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"author": {
-					"primarynode": "a[href*=\"/manga-author/\"]",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"introduction": {
-					"primarynode": "meta[name=\"description\"]",
-					"childnode": "",
-					"childnodeproperty": "content",
-					"childnodetext": "",
-					"excludePatterns": [],
-					"cleanupPatterns": ["^第\\d+[-~]?\\d*[话章回节]\\s*"]
-				}
-			},
-			"chapters": {
-				"primarynode": ".chapteritem a",
-				"childnode": "",
-				"childnodeproperty": "href",
-				"childnodetext": "",
-				"upTo": "",
-				"listdatas": "",
-				"waitnode": ".chapteritem",
-				"expand_button": {
-					"primarynode": "#morechap a",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": "查看所有章節"
-				},
-				"data": {
-					"href": {
-						"primarynode": "a",
-						"childnode": "",
-						"childnodeproperty": "href",
-						"childnodetext": "",
-						"excludePatterns": []
-					},
-					"title": {
-						"primarynode": ".chaptertitle",
-						"childnode": "",
-						"childnodeproperty": "",
-						"childnodetext": "",
-						"excludePatterns": []
-					}
-				}
-			},
-			"reader": {
-				"primarynode": "#chapcontent img",
-				"childnode": "",
-				"childnodeproperty": "data-src",
-				"childnodetext": "",
-				"excludePatterns": ["data:image/gif"]
-			}
-		}
-	},
-	"mika": {
-		"basicinfo": {
-			"websitename": "米卡",
-			"websiteurl": "https://mikagogo.com/"
-		},
-		"homepage": {
-			"addressurl": "https://mikagogo.com/vip-illustration",
-			"primarynode": "",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": "",
-			"upTo": ".update_area.kz-CmsPostList",
-			"listdatas": ".kzpost-data",
-			"data": {
-				"img": {
-					"primarynode": ".cardImage",
-					"childnode": "",
-					"childnodeproperty": "data-original",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"title": {
-					"primarynode": "div.posr-tit",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"switchlink": {
-					"primarynode": "a",
-					"childnode": "",
-					"childnodeproperty": "href",
-					"childnodetext": "",
-					"excludePatterns": []
-				}
-			}
-		},
-		"detailpage": {
-			"primarynode": "",
-			"childnode": "",
-			"childnodeproperty": "",
-			"childnodetext": "",
-			"upTo": "",
-			"listdatas": "",
-			"data": {
-				"cover": {
-					"primarynode": ".hig-item .hig-image-container img",
-					"childnode": "",
-					"childnodeproperty": "src",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"title": {
-					"primarynode": ".kz-single-data h1",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"author": {
-					"primarynode": ".kz-post-meta a[href*=\"/author/\"]",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				},
-				"introduction": {
-					"primarynode": "",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": "",
-					"excludePatterns": []
-				}
-			},
-			"chapters": {
-				"primarynode": ".horizontal-image-gallery",
-				"childnode": "",
-				"childnodeproperty": "",
-				"childnodetext": "",
-				"upTo": "",
-				"listdatas": ".hig-item",
-				"expand_button": {
-					"primarynode": "",
-					"childnode": "",
-					"childnodeproperty": "",
-					"childnodetext": ""
-				},
-				"data": {
-					"href": {
-						"primarynode": ".hig-image-container img",
-						"childnode": "",
-						"childnodeproperty": "src",
-						"childnodetext": "",
-						"excludePatterns": []
-					},
-					"title": {
-						"primarynode": "",
-						"childnode": "",
-						"childnodeproperty": "",
-						"childnodetext": "",
-						"excludePatterns": []
-					}
-				}
-			}
-		}
-	}
+  "baozi": {
+    "basicinfo": {
+      "websitename": "包子漫画",
+      "websiteurl": "https://tw.baozimh.com/"
+    },
+    "homepage": {
+      "addressurl": "https://tw.baozimh.com/",
+      "primarynode": ".catalog-head",
+      "childnode": ".catalog-title",
+      "childnodeproperty": "",
+      "childnodetext": "最近更新",
+      "upTo": ".index-recommend-items",
+      "listdatas": ".comics-card",
+      "data": {
+        "img": {
+          "primarynode": "amp-img",
+          "childnode": "",
+          "childnodeproperty": "src",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "title": {
+          "primarynode": "a",
+          "childnode": "h3",
+          "childnodeproperty": "",
+          "childnodetext": "*",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "switchlink": {
+          "primarynode": "a",
+          "childnode": "",
+          "childnodeproperty": "href",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        }
+      }
+    },
+    "detailpage": {
+      "primarynode": ".comics-detail",
+      "childnode": "amp-img",
+      "childnodeproperty": "src",
+      "childnodetext": "",
+      "upTo": "",
+      "listdatas": "",
+      "data": {
+        "cover": {
+          "primarynode": ".comics-detail",
+          "childnode": "amp-img",
+          "childnodeproperty": "src",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "title": {
+          "primarynode": ".comics-detail__info",
+          "childnode": "h1",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "author": {
+          "primarynode": ".comics-detail__info",
+          "childnode": "h2",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "introduction": {
+          "primarynode": ".comics-detail__info",
+          "childnode": ".comics-detail__desc",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        }
+      },
+      "chapters": {
+        "primarynode": "a.comics-chapters__item",
+        "childnode": "",
+        "childnodeproperty": "href",
+        "childnodetext": "",
+        "upTo": "",
+        "listdatas": "",
+        "expand_button": {
+          "primarynode": "",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "查看全部"
+        },
+        "data": {
+          "href": {
+            "primarynode": "a",
+            "childnode": "",
+            "childnodeproperty": "href",
+            "childnodetext": "",
+            "excludePatterns": [],
+            "cleanupPatterns": []
+          },
+          "title": {
+            "primarynode": "span",
+            "childnode": "",
+            "childnodeproperty": "",
+            "childnodetext": "",
+            "excludePatterns": [],
+            "cleanupPatterns": []
+          }
+        }
+      },
+      "reader": {
+        "primarynode": ".comic-contain amp-img",
+        "childnode": "",
+        "childnodeproperty": "src",
+        "childnodetext": "",
+        "excludePatterns": [
+          "install_app_bar"
+        ],
+        "cleanupPatterns": []
+      }
+    }
+  },
+  "bun": {
+    "basicinfo": {
+      "websitename": "Bun 漫画",
+      "websiteurl": "https://m.baozimh.one/"
+    },
+    "homepage": {
+      "addressurl": "https://m.baozimh.one/",
+      "primarynode": "",
+      "childnode": "",
+      "childnodeproperty": "",
+      "childnodetext": "",
+      "upTo": "",
+      "listdatas": ".slicarda",
+      "data": {
+        "img": {
+          "primarynode": "div.aspect-3-4",
+          "childnode": "img.slicardimg",
+          "childnodeproperty": "src",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "title": {
+          "primarynode": "h3.slicardtitle",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "switchlink": {
+          "primarynode": "a.slicarda",
+          "childnode": "",
+          "childnodeproperty": "href",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        }
+      }
+    },
+    "detailpage": {
+      "primarynode": "meta[property=\"og:image\"]",
+      "childnode": "",
+      "childnodeproperty": "content",
+      "childnodetext": "",
+      "upTo": "",
+      "listdatas": "",
+      "data": {
+        "cover": {
+          "primarynode": "meta[property=\"og:image\"]",
+          "childnode": "",
+          "childnodeproperty": "content",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "title": {
+          "primarynode": "h1",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "author": {
+          "primarynode": "a[href*=\"/manga-author/\"]",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "introduction": {
+          "primarynode": "meta[name=\"description\"]",
+          "childnode": "",
+          "childnodeproperty": "content",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": [
+            "^第\\d+[-~]?\\d*[话章回节]\\s*"
+          ]
+        }
+      },
+      "chapters": {
+        "primarynode": ".chapteritem a",
+        "childnode": "",
+        "childnodeproperty": "href",
+        "childnodetext": "",
+        "upTo": "",
+        "listdatas": "",
+        "waitnode": ".chapteritem",
+        "expand_button": {
+          "primarynode": "#morechap a",
+          "childnode": "",
+          "childnodeproperty": "href",
+          "childnodetext": "查看所有章節"
+        },
+        "data": {
+          "href": {
+            "primarynode": "a",
+            "childnode": "",
+            "childnodeproperty": "href",
+            "childnodetext": "",
+            "excludePatterns": [],
+            "cleanupPatterns": []
+          },
+          "title": {
+            "primarynode": ".chaptertitle",
+            "childnode": "",
+            "childnodeproperty": "",
+            "childnodetext": "",
+            "excludePatterns": [],
+            "cleanupPatterns": []
+          }
+        }
+      },
+      "reader": {
+        "primarynode": "#chapcontent img",
+        "childnode": "",
+        "childnodeproperty": "data-src",
+        "childnodetext": "",
+        "excludePatterns": [
+          "data:image/gif"
+        ],
+        "cleanupPatterns": []
+      }
+    }
+  },
+  "mika": {
+    "basicinfo": {
+      "websitename": "米卡",
+      "websiteurl": "https://mikagogo.com/"
+    },
+    "homepage": {
+      "addressurl": "https://mikagogo.com/vip-illustration",
+      "primarynode": "",
+      "childnode": "",
+      "childnodeproperty": "",
+      "childnodetext": "",
+      "upTo": ".update_area.kz-CmsPostList",
+      "listdatas": ".kzpost-data",
+      "data": {
+        "img": {
+          "primarynode": ".cardImage",
+          "childnode": "",
+          "childnodeproperty": "data-original",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "title": {
+          "primarynode": "div.posr-tit",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "switchlink": {
+          "primarynode": "a",
+          "childnode": "",
+          "childnodeproperty": "href",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        }
+      }
+    },
+    "detailpage": {
+      "primarynode": "",
+      "childnode": "",
+      "childnodeproperty": "",
+      "childnodetext": "",
+      "upTo": "",
+      "listdatas": "",
+      "data": {
+        "cover": {
+          "primarynode": ".hig-item .hig-image-container img",
+          "childnode": "",
+          "childnodeproperty": "src",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "title": {
+          "primarynode": ".kz-single-data h1",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "author": {
+          "primarynode": ".kz-post-meta a[href*=\"/author/\"]",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        },
+        "introduction": {
+          "primarynode": "",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": "",
+          "excludePatterns": [],
+          "cleanupPatterns": []
+        }
+      },
+      "chapters": {
+        "primarynode": ".horizontal-image-gallery",
+        "childnode": "",
+        "childnodeproperty": "",
+        "childnodetext": "",
+        "upTo": "",
+        "listdatas": ".hig-item",
+        "expand_button": {
+          "primarynode": "",
+          "childnode": "",
+          "childnodeproperty": "",
+          "childnodetext": ""
+        },
+        "data": {
+          "href": {
+            "primarynode": ".hig-image-container img",
+            "childnode": "",
+            "childnodeproperty": "src",
+            "childnodetext": "",
+            "excludePatterns": [],
+            "cleanupPatterns": []
+          },
+          "title": {
+            "primarynode": "",
+            "childnode": "",
+            "childnodeproperty": "",
+            "childnodetext": "",
+            "excludePatterns": [],
+            "cleanupPatterns": []
+          }
+        }
+      }
+    }
+  }
 }
